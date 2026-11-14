@@ -24,14 +24,17 @@ Vite development ở cổng 5175. Build tạo dist. Netlify đọc netlify.toml:
 
 ## Chức năng
 
-Menu di động; tab ba trụ cột và phân vùng; thư viện 10 ảnh lọc theo chủ đề; lightbox có phím mũi tên, Escape và quản lý focus; danh sách chuẩn bị lưu localStorage và xuất TXT; FAQ có đóng/mở; Google Maps tìm khu bảo tồn. Ảnh WebP cục bộ, bản nhỏ cho thư viện; tải lười và kích thước xác định. Hiệu ứng FadeContent từ React Bits, tắt khi prefers-reduced-motion.
+Menu di động; tab ba trụ cột và phân vùng; thư viện 10 ảnh lọc theo chủ đề; lightbox có phím mũi tên, Escape và quản lý focus; danh sách chuẩn bị lưu localStorage và xuất TXT; FAQ có đóng/mở; Google Maps tìm khu bảo tồn. Ảnh WebP cục bộ, bản nhỏ cho thư viện; tải lười và kích thước xác định. Hiệu ứng FadeContent từ React Bits; GSAP cho tiêu đề theo dòng, ảnh bìa parallax, mở ảnh theo cuộn và thanh tiến trình đọc; hạt sáng Canvas, ánh sáng khi rê chuột và số liệu đếm tăng. Tắt chuyển động khi prefers-reduced-motion.
 
 ## Tài nguyên
 
 11 ảnh chọn lọc: public/images/photos. Nguồn và xác nhận địa điểm: public/images/photos/sources.json. Bản trích ảnh gốc giữ ngoài repo ở /workspace/photo-review. SVG minh họa cũ giữ lại để tránh xóa tài nguyên không cần thiết, giao diện mới không sử dụng.
 
-FadeContent chuyển từ DavidHDev/react-bits; import React được điều chỉnh cho Vite, bỏ directive Next.js. Giấy phép MIT + Commons Clause giữ tại src/components/REACT-BITS-LICENSE.md. Không dùng mã GPL từ antigravity-animation. Font Google có font hệ thống dự phòng.
+FadeContent chuyển từ DavidHDev/react-bits; import React được điều chỉnh cho Vite, bỏ directive Next.js. Giấy phép MIT + Commons Clause giữ tại src/components/REACT-BITS-LICENSE.md. Không dùng mã GPL từ antigravity-animation. Font Be Vietnam Pro và Lora được tải cục bộ từ public/fonts, có glyph tiếng Việt đầy đủ; giấy phép OFL được giữ cùng font. Website không gửi yêu cầu Google Fonts.
 
 ## Kiểm tra
 
 Build production và Chromium desktop/mobile: phạm vi nội dung, bộ lọc ảnh, lightbox và phím, tab chức năng/phân vùng, checklist lưu sau reload và nội dung tải xuống, FAQ, ảnh tải thành công, menu di động, không tràn ngang, giảm chuyển động và không lỗi JavaScript. Test thực thi trong /tmp/test-reserve.py; ảnh chụp kiểm tra ở /workspace/artifacts/khu-bao-ton-desktop.png và khu-bao-ton-mobile.png.
+
+
+Cập nhật hình ảnh: bảng màu xanh ngọc, xanh lá sáng và vàng ấm; cỡ chữ lớn hơn, font tiếng Việt tự lưu trữ. Đã kiểm tra font tải từ cùng website và không có yêu cầu font bên ngoài; kiểm tra glyph tiếng Việt trên cả 5 tệp font, màn hình 320/390/768/1440px, bộ đếm và tương tác.
