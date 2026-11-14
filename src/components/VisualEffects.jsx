@@ -11,7 +11,7 @@ export default function VisualEffects(){
    gsap.fromTo('.hero-content .eyebrow',{y:16,opacity:0},{y:0,opacity:1,duration:.8,delay:.15});
    gsap.fromTo('.title-line',{y:65,opacity:0,filter:'blur(10px)'},{y:0,opacity:1,filter:'blur(0px)',duration:1.25,stagger:.16,ease:'power3.out',delay:.2});
    gsap.fromTo('.hero-content>p,.hero-content>.button',{y:20,opacity:0},{y:0,opacity:1,duration:.9,stagger:.15,delay:.85});
-   gsap.to('.hero-image',{yPercent:16,scale:1.12,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
+   gsap.to('.hero-image',{yPercent:4,scale:1.04,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
    gsap.to('.hero-content',{yPercent:10,opacity:.3,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});
    document.querySelectorAll('.intro-photo,.value-photo,.bio-visual').forEach(el=>{
     gsap.fromTo(el,{clipPath:'inset(10% 0% 10% 0% round 12px)'},{clipPath:'inset(0% 0% 0% 0% round 0px)',duration:1.2,ease:'power3.out',scrollTrigger:{trigger:el,start:'top 94%',once:true}});

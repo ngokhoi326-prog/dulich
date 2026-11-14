@@ -106,3 +106,12 @@ Lệnh yêu cầu `npx shadcn@latest add @react-bits/AnimatedContent-JS-CSS --ye
 Reveal hiện dùng AnimatedContent: distance 36px, duration 0.75s, initialOpacity 0.12, threshold 0.08, once. Hỗ trợ prefers-reduced-motion. FadeContent cũ vẫn được giữ để tái sử dụng nhưng không dùng trong Reveal. Vite cấu hình JSX automatic và alias @ trỏ src, giúp component JSX của React Bits không cần import biến React thủ công. GSAP được CLI cập nhật yêu cầu phiên bản lên ^3.15.1; lockfile giữ đồng bộ.
 
 Đã kiểm tra production với hiệu ứng thực, nội dung mở rộng, menu di động, thư viện xem thêm và chế độ giảm chuyển động; không lỗi JavaScript.
+
+
+## Giao diện xanh tươi và bố trí ảnh theo nội dung
+
+Ảnh bìa chia riêng vùng chữ xanh đậm và vùng ảnh rừng sáng, không phủ màu tối lên toàn ảnh. Điện thoại chuyển thành khối chữ rồi đến ảnh. Giới thiệu dùng cặp ảnh toàn cảnh/chi tiết, số liệu tách ra ngoài ảnh. Các thẻ cảnh quan dùng khung 4:3 và điểm lấy nét riêng; hai chương trình trải nghiệm có ảnh tư liệu phù hợp. Giảm lặp ảnh giữa các phần chính và đổi ảnh kết trang.
+
+Thư viện dùng bố cục cột với tỷ lệ tự nhiên, chú thích phía dưới thay vì đè trên ảnh; không zoom cắt ảnh khi hover. src/photoMetadata.js lưu kích thước thực của cả ảnh đầy đủ và thumbnail; dữ liệu gallery kế thừa kích thước này để giữ bố cục ổn định. 36 ảnh và phân trang 12 ảnh được giữ nguyên. Tone xanh tươi hơn, nền xanh nhạt và nút xanh rõ hơn, giữ màu logo gốc.
+
+Đã kiểm tra production và chế độ chuyển động: bố cục ảnh bìa desktop/mobile, tỷ lệ ảnh của cả 36 ảnh ở 7 chiều rộng màn hình, nhóm ảnh giới thiệu, ảnh trải nghiệm, bộ lọc/xem thêm/lightbox, menu, nội dung mở rộng và không lỗi JavaScript.

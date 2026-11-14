@@ -1,3 +1,4 @@
+import {photoMetadata} from './photoMetadata';
 import {additionalPhotos} from './additionalPhotos';
 export const asset = name => `${import.meta.env.BASE_URL}images/photos/${name}.webp`;
 export const photos = [
@@ -12,7 +13,7 @@ export const photos = [
  {id:'forest-path',title:'Lối đi dưới tán rừng',category:'Thực vật & nấm',description:'Ánh sáng, thảm thực vật và những tầng tán tạo nên chiều sâu của rừng.'},
  {id:'forest-trail',title:'Theo dấu những lối mòn',category:'Cảnh quan',description:'Mỗi chuyến khám phá cần tôn trọng tuyến tham quan và quy định của đơn vị quản lý.'},
  ...additionalPhotos
-];
+].map(photo=>({...photo,...photoMetadata[photo.id]}));
 export const pillars=[
  {title:'Bảo tồn',number:'01',subtitle:'Gìn giữ nền tảng của sự sống',text:'Bảo tồn cảnh quan, hệ sinh thái, loài và nguồn gen. Duy trì các sinh cảnh quan trọng, bảo vệ những giá trị thiên nhiên cho các thế hệ hiện tại và tương lai.',items:['Bảo vệ đa dạng sinh học','Duy trì các sinh cảnh quan trọng','Giữ gìn cảnh quan tự nhiên']},
  {title:'Phát triển',number:'02',subtitle:'Để con người cùng thiên nhiên phát triển',text:'Thúc đẩy phát triển kinh tế, xã hội và văn hóa gắn với trách nhiệm môi trường. Kết nối sinh kế cộng đồng với việc gìn giữ tài nguyên và bản sắc địa phương.',items:['Sinh kế bền vững cho cộng đồng','Kinh tế ít chất thải, các bon thấp','Gìn giữ giá trị văn hóa truyền thống']},
