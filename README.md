@@ -76,3 +76,10 @@ Thứ tự chính: giới thiệu → điểm khám phá → chương trình tr�
 Thư viện mặc định có 6 ảnh với lưới đầy đủ; nút xem thêm mở toàn bộ 10 ảnh, bộ lọc áp dụng trên toàn bộ ảnh. Bổ sung xử lý khi trình duyệt không cho lưu localStorage để tính năng checklist không làm ứng dụng mất giao diện. Đây là kiểm tra độ bền cục bộ, chưa đủ bằng chứng để khẳng định nguyên nhân trang trắng trên Render.
 
 Kiểm tra production tại /tmp/test-page-flow.py bao gồm thứ tự mục, toàn bộ neo điều hướng, nhóm mở rộng, ảnh/lọc/lightbox, tab, nội dung Word đối chiếu, checklist/tải xuống, nguồn, mobile và trường hợp trình duyệt từ chối lưu trữ.
+
+
+## Loại bỏ liên kết nguồn khỏi giao diện và đổi màu
+
+Theo yêu cầu, đã bỏ toàn bộ liên kết nhấp ra dongnaibr.vn ở phần giới thiệu, thẻ cảnh quan, chương trình, phân vùng, thống kê, liên hệ và nguồn cuối trang. Nguồn vẫn ghi bằng văn bản, tài liệu đối chiếu trong docs vẫn giữ liên kết phục vụ biên tập. Dữ liệu giao diện không còn trường URL nguồn; liên kết bản đồ, mailto và tel được giữ lại.
+
+Bảng màu hiện tại: đỏ đất, nền kem và nâu đậm; logo giữ màu gốc. Build production, luồng trang, thư viện/tabs/checklist và các kích thước màn hình được kiểm tra. Đã kiểm tra cả DOM của mục đang đóng: không có anchor nào trỏ tới dongnaibr.vn.

@@ -2,10 +2,10 @@
 // These records describe the reserve; regional statistics remain explicitly scoped.
 export const sourceReviewDate = '14/11/2026';
 export const officialSources = [
- {id:'overview',title:'Giới thiệu Khu dự trữ sinh quyển Đồng Nai',url:'https://dongnaibr.vn/aboutme',scope:'Vai trò vùng lõi, năm công nhận, đa dạng sinh học, giá trị văn hóa – lịch sử và định hướng phát triển.'},
- {id:'reserve',title:'Khám phá Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai',url:'https://dongnaibr.vn/dich-vu/101',scope:'Rừng Mã Đà, hồ Trị An, Chiến khu Đ, Trung tâm sinh thái Bà Hào và chương trình tham quan.'},
- {id:'cycling',title:'Đạp xe Chiến khu Đ – Trảng B',url:'https://dongnaibr.vn/dich-vu/102',scope:'Chặng đạp xe khoảng 18 km theo mô tả tuyến; điểm nhận xe tại bờ đập Hiếu Liêm.'},
- {id:'contact',title:'Thông tin liên hệ trên dongnaibr.vn',url:'https://dongnaibr.vn/lien-he',scope:'Đầu mối văn phòng khu dự trữ sinh quyển; email trung tâm được nêu trong trang dịch vụ khu bảo tồn.'}
+ {id:'overview',title:'Giới thiệu Khu dự trữ sinh quyển Đồng Nai',scope:'Vai trò vùng lõi, năm công nhận, đa dạng sinh học, giá trị văn hóa – lịch sử và định hướng phát triển.'},
+ {id:'reserve',title:'Khám phá Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai',scope:'Rừng Mã Đà, hồ Trị An, Chiến khu Đ, Trung tâm sinh thái Bà Hào và chương trình tham quan.'},
+ {id:'cycling',title:'Đạp xe Chiến khu Đ – Trảng B',scope:'Chặng đạp xe khoảng 18 km theo mô tả tuyến; điểm nhận xe tại bờ đập Hiếu Liêm.'},
+ {id:'contact',title:'Thông tin liên hệ trên dongnaibr.vn',scope:'Đầu mối văn phòng khu dự trữ sinh quyển; email trung tâm được nêu trong trang dịch vụ khu bảo tồn.'}
 ];
 export const reserveLandscapes = [
  {id:'ma-da',number:'01',title:'Rừng nhiệt đới Mã Đà',label:'ĐI GIỮA ĐẠI NGÀN',image:'forest-road',text:'Không gian rừng nhiệt đới gắn với hành trình tìm hiểu hệ sinh thái, quan sát thiên nhiên và giáo dục môi trường. Đi cùng hướng dẫn viên để hiểu sâu hơn về mối liên hệ giữa rừng và các loài sinh vật.',source:'reserve'},
