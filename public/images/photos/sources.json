@@ -106,5 +106,221 @@
     "locationConfirmed": true,
     "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
     "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên di tích cụ thể."
+  },
+  {
+    "name": "wetlands",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image1.jpeg",
+    "alt": "Sắc xanh vùng đất ngập nước",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "water-channels",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image2.jpeg",
+    "alt": "Những dòng nước uốn lượn",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "canopy-patterns",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image23.jpeg",
+    "alt": "Nhịp điệu của những tầng tán",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "forest-rest-stop",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image34.jpeg",
+    "alt": "Khoảng dừng chân giữa rừng",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "forest-cascade",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image49.jpeg",
+    "alt": "Dòng chảy dưới tán cây",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "lake-sails",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image15.jpeg",
+    "alt": "Những cánh buồm xa",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "bird-pair",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image9.jpeg",
+    "alt": "Gặp nhau trên cành nhỏ",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "bird-on-branch",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image10.jpeg",
+    "alt": "Một dáng chim giữa tán lá",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "open-wings",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image36.jpeg",
+    "alt": "Đôi cánh mở giữa rừng",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "forest-bird",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image37.jpeg",
+    "alt": "Bước chân trên thảm lá",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "forest-mammal",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image12.jpeg",
+    "alt": "Một cuộc gặp trên lối rừng",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "curled-wildlife",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image13.jpeg",
+    "alt": "Cuộn mình giữa thiên nhiên",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "green-frog",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image14.jpeg",
+    "alt": "Sắc xanh giữa tầng lá",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "green-snake",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image16.jpeg",
+    "alt": "Ẩn mình trong màu xanh",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "forest-reptile",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image17.jpeg",
+    "alt": "Dưới tầng cây thấp",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "blue-feather",
+    "sourceFile": "anh1.docx",
+    "embeddedImage": "anh1-image16.jpeg",
+    "alt": "Sắc lam bên cành cây",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "green-feather",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image43.jpeg",
+    "alt": "Ánh xanh trên bộ lông",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "yellow-feather",
+    "sourceFile": "anh1.docx",
+    "embeddedImage": "anh1-image10.jpeg",
+    "alt": "Một vệt nắng giữa rừng",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "changing-leaves",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image22.jpeg",
+    "alt": "Khi tán rừng chuyển sắc",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "forest-mushrooms",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image25.jpeg",
+    "alt": "Thế giới nhỏ trên nền rừng",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "forest-floor-colors",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image27.jpeg",
+    "alt": "Mảng màu bên gốc cây",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "mossy-trunk",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image28.jpeg",
+    "alt": "Thời gian trên thân cây",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "forest-vines",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image29.jpeg",
+    "alt": "Những đường nét của dây leo",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
+  },
+  {
+    "name": "pink-blossom",
+    "sourceFile": "anh1.docx",
+    "embeddedImage": "anh1-image12.jpeg",
+    "alt": "Sắc hoa dịu bên màu xanh",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên loài hoặc vị trí nhỏ."
   }
 ]

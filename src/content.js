@@ -1,15 +1,17 @@
+import {additionalPhotos} from './additionalPhotos';
 export const asset = name => `${import.meta.env.BASE_URL}images/photos/${name}.webp`;
 export const photos = [
  {id:'forest-canopy',title:'Miền xanh nhìn từ trên cao',category:'Cảnh quan',description:'Những tầng tán rừng nối tiếp nhau, tạo nên không gian sống của nhiều loài sinh vật.'},
  {id:'forest-road',title:'Con đường xuyên rừng',category:'Cảnh quan',description:'Đi chậm dưới tán cây, dành thời gian quan sát và lắng nghe thiên nhiên.'},
- {id:'ancient-tree',title:'Dấu thời gian trên thân cây',category:'Thực vật',description:'Những thân cây lớn là một phần của cấu trúc rừng và nơi cư trú của nhiều loài.'},
+ {id:'ancient-tree',title:'Dấu thời gian trên thân cây',category:'Thực vật & nấm',description:'Những thân cây lớn là một phần của cấu trúc rừng và nơi cư trú của nhiều loài.'},
  {id:'birds',title:'Sắc màu hoang dã',category:'Động vật',description:'Thế giới các loài chim góp phần làm nên sự phong phú của hệ sinh thái rừng.'},
  {id:'woodpecker',title:'Một nhịp sống giữa rừng',category:'Động vật',description:'Quan sát từ khoảng cách phù hợp, giữ yên lặng và không tác động đến động vật.'},
  {id:'butterflies',title:'Những cánh bướm bên nước',category:'Động vật',description:'Một khoảnh khắc nhỏ gợi nhắc mối liên hệ giữa sinh vật và môi trường sống.'},
  {id:'waterfall',title:'Dòng nước giữa màu xanh',category:'Cảnh quan',description:'Rừng và dòng nước cùng tạo nên những cảnh quan đặc trưng của miền sinh quyển.'},
  {id:'sailing',title:'Khoảng trời trên mặt hồ',category:'Cảnh quan',description:'Không gian mặt nước mở ra một góc nhìn khác về cảnh quan khu bảo tồn.'},
- {id:'forest-path',title:'Lối đi dưới tán rừng',category:'Thực vật',description:'Ánh sáng, thảm thực vật và những tầng tán tạo nên chiều sâu của rừng.'},
- {id:'forest-trail',title:'Theo dấu những lối mòn',category:'Cảnh quan',description:'Mỗi chuyến khám phá cần tôn trọng tuyến tham quan và quy định của đơn vị quản lý.'}
+ {id:'forest-path',title:'Lối đi dưới tán rừng',category:'Thực vật & nấm',description:'Ánh sáng, thảm thực vật và những tầng tán tạo nên chiều sâu của rừng.'},
+ {id:'forest-trail',title:'Theo dấu những lối mòn',category:'Cảnh quan',description:'Mỗi chuyến khám phá cần tôn trọng tuyến tham quan và quy định của đơn vị quản lý.'},
+ ...additionalPhotos
 ];
 export const pillars=[
  {title:'Bảo tồn',number:'01',subtitle:'Gìn giữ nền tảng của sự sống',text:'Bảo tồn cảnh quan, hệ sinh thái, loài và nguồn gen. Duy trì các sinh cảnh quan trọng, bảo vệ những giá trị thiên nhiên cho các thế hệ hiện tại và tương lai.',items:['Bảo vệ đa dạng sinh học','Duy trì các sinh cảnh quan trọng','Giữ gìn cảnh quan tự nhiên']},

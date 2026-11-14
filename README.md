@@ -28,7 +28,7 @@ Menu di động; tab ba trụ cột và phân vùng; thư viện 10 ảnh lọc 
 
 ## Tài nguyên
 
-12 ảnh chọn lọc: public/images/photos. Nguồn và xác nhận địa điểm: public/images/photos/sources.json. Bản trích ảnh gốc giữ ngoài repo ở /workspace/photo-review. SVG minh họa cũ giữ lại để tránh xóa tài nguyên không cần thiết, giao diện mới không sử dụng.
+36 ảnh chọn lọc: public/images/photos. Nguồn và xác nhận địa điểm: public/images/photos/sources.json. Bản trích ảnh gốc giữ ngoài repo ở /workspace/photo-review. SVG minh họa cũ giữ lại để tránh xóa tài nguyên không cần thiết, giao diện mới không sử dụng.
 
 FadeContent chuyển từ DavidHDev/react-bits; import React được điều chỉnh cho Vite, bỏ directive Next.js. Giấy phép MIT + Commons Clause giữ tại src/components/REACT-BITS-LICENSE.md. Không dùng mã GPL từ antigravity-animation. Font Be Vietnam Pro và Lora được tải cục bộ từ public/fonts, có glyph tiếng Việt đầy đủ; giấy phép OFL được giữ cùng font. Website không gửi yêu cầu Google Fonts.
 
@@ -86,3 +86,12 @@ Bảng màu hiện tại: đỏ đất, nền kem và nâu đậm; logo giữ m�
 
 
 Bảng màu hiện hành đã chuyển sang xanh lá rừng, xanh non và nền kem sáng theo yêu cầu mới nhất. Logo giữ màu gốc; các liên kết ra dongnaibr.vn vẫn được loại bỏ.
+
+
+## Thư viện 36 ảnh
+
+Bổ sung 24 ảnh chọn lọc từ bộ ảnh Word gốc và đưa 2 ảnh văn hóa đã có vào thư viện. Tổng 36 ảnh, gồm cảnh quan, động vật, thực vật & nấm, văn hóa. Mọi ảnh đều từ tài liệu người dùng cung cấp, không lấy ảnh ngoài dự án. Không xác định tên loài hay tên công trình khi chưa có dữ liệu.
+
+Ban đầu hiển thị 12 ảnh; nút xem thêm mở từng nhóm 12, cuối cùng có thể thu gọn. Bộ lọc luôn áp dụng trên toàn bộ 36 ảnh. Thumbnail 680px cho ảnh mới và ảnh phóng lớn tối đa 1600px, WebP, giữ tỉ lệ ảnh gốc. Thư viện dùng lazy loading và decoding async. Ảnh đầy đủ chỉ được yêu cầu khi mở. Tổng các bản ảnh tối ưu khoảng 9,9 MB, không tải toàn bộ cùng lúc.
+
+Dữ liệu ảnh mới tại src/additionalPhotos.js; nguồn gốc từng ảnh được giữ trong public/images/photos/sources.json.
