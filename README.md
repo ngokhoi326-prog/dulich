@@ -67,3 +67,12 @@ Cấu hình có sẵn tại render.yaml. Trong Render chọn New → Static Site
 - Rewrite: /* → /index.html
 
 Đây là website tĩnh, không cần Start Command, Web Service hoặc máy chủ Node chạy liên tục. Có thể dùng New → Blueprint để Render đọc render.yaml từ nhánh render-site. Việc đẩy mã chỉ chuẩn bị nguồn; cần kiểm tra trạng thái Live trên Render và URL thực tế trước khi xác nhận website đã công khai.
+
+
+## Bố cục theo hành trình khám phá
+
+Thứ tự chính: giới thiệu → điểm khám phá → chương trình trải nghiệm → ảnh thực tế → thông điệp bảo tồn → chuẩn bị tham quan → liên hệ → câu hỏi thường gặp. Menu đầu trang và thanh đi nhanh dẫn thẳng đến các bước này. Các thẻ giá trị trùng nội dung được rút thành ba ý ngắn trong giới thiệu. Chi tiết di tích nằm trong phần mở rộng ngay dưới điểm khám phá; sinh quyển, phân vùng, thống kê và cộng đồng nằm trong một nhóm mở rộng riêng. Nguồn tham khảo vẫn giữ ở cuối trang trong phần mở rộng.
+
+Thư viện mặc định có 6 ảnh với lưới đầy đủ; nút xem thêm mở toàn bộ 10 ảnh, bộ lọc áp dụng trên toàn bộ ảnh. Bổ sung xử lý khi trình duyệt không cho lưu localStorage để tính năng checklist không làm ứng dụng mất giao diện. Đây là kiểm tra độ bền cục bộ, chưa đủ bằng chứng để khẳng định nguyên nhân trang trắng trên Render.
+
+Kiểm tra production tại /tmp/test-page-flow.py bao gồm thứ tự mục, toàn bộ neo điều hướng, nhóm mở rộng, ảnh/lọc/lightbox, tab, nội dung Word đối chiếu, checklist/tải xuống, nguồn, mobile và trường hợp trình duyệt từ chối lưu trữ.

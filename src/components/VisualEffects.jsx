@@ -26,7 +26,11 @@ export default function VisualEffects(){
   const move=e=>{if(!matchMedia('(pointer:fine)').matches)return;const el=e.target.closest('.value-card,.gallery-photo');if(!el)return;const rect=el.getBoundingClientRect();el.style.setProperty('--mx',`${(e.clientX-rect.left)/rect.width*100}%`);el.style.setProperty('--my',`${(e.clientY-rect.top)/rect.height*100}%`)};
   document.addEventListener('pointermove',move,{passive:true});
   const fontsReady=()=>ScrollTrigger.refresh();document.fonts.ready.then(fontsReady);
-  return()=>{ctx.revert();cancelAnimationFrame(frame);io.disconnect();window.removeEventListener('resize',resize);document.removeEventListener('pointermove',move)};
+  // Expanded research, heritage and gallery items change the reading height.
+  let layoutFrame=0;
+  const layoutObserver=new ResizeObserver(()=>{cancelAnimationFrame(layoutFrame);layoutFrame=requestAnimationFrame(()=>ScrollTrigger.refresh())});
+  const main=document.querySelector('main');if(main)layoutObserver.observe(main);
+  return()=>{layoutObserver.disconnect();cancelAnimationFrame(layoutFrame);ctx.revert();cancelAnimationFrame(frame);io.disconnect();window.removeEventListener('resize',resize);document.removeEventListener('pointermove',move)};
  },[]);
  return <><div className="scroll-progress" aria-hidden="true"/><canvas ref={canvasRef} className="forest-lights" aria-hidden="true"/></>;
 }
