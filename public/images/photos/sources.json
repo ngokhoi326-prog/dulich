@@ -4,69 +4,98 @@
     "sourceFile": "anh2.docx",
     "embeddedImage": "anh2-image21.jpeg",
     "alt": "Tán rừng nhìn từ trên cao",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
   },
   {
     "name": "forest-path",
     "sourceFile": "anh2.docx",
     "embeddedImage": "anh2-image33.jpeg",
     "alt": "Lối đi giữa tán rừng",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
   },
   {
     "name": "forest-road",
     "sourceFile": "anh2.docx",
     "embeddedImage": "anh2-image5.jpeg",
     "alt": "Con đường rợp bóng cây",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
   },
   {
     "name": "sailing",
     "sourceFile": "anh2.docx",
     "embeddedImage": "anh2-image19.jpeg",
     "alt": "Những cánh buồm trên mặt hồ",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
   },
   {
     "name": "ancient-tree",
     "sourceFile": "anh2.docx",
     "embeddedImage": "anh2-image24.jpeg",
     "alt": "Cây lớn giữa rừng",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
   },
   {
     "name": "birds",
     "sourceFile": "anh2.docx",
     "embeddedImage": "anh2-image42.jpeg",
     "alt": "Những sắc màu của thế giới loài chim",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
   },
   {
     "name": "woodpecker",
     "sourceFile": "anh2.docx",
     "embeddedImage": "anh2-image6.jpeg",
     "alt": "Chim bên thân cây",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
   },
   {
     "name": "waterfall",
     "sourceFile": "anh2.docx",
     "embeddedImage": "anh2-image52.jpeg",
     "alt": "Dòng nước giữa rừng",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
   },
   {
     "name": "butterflies",
     "sourceFile": "anh2.docx",
     "embeddedImage": "anh2-image20.jpeg",
     "alt": "Bướm bên mặt nước",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
   },
   {
     "name": "forest-trail",
     "sourceFile": "anh1.docx",
     "embeddedImage": "anh1-image17.jpeg",
     "alt": "Đường mòn dưới tán cây",
-    "locationConfirmed": false
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận toàn bộ ảnh thuộc khu bảo tồn; chưa có tên vị trí nhỏ hoặc tên loài."
+  },
+  {
+    "name": "forest-house",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image26.jpeg",
+    "alt": "Không gian kiến trúc nhà gỗ trong khu bảo tồn",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận địa điểm; chưa xác định tên công trình."
   }
 ]
