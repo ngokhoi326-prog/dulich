@@ -47,3 +47,23 @@ Bổ sung cảnh quan Mã Đà – Trị An – Chiến khu Đ, ba địa danh v
 Phần thống kê toàn khu DTSQ hiện dùng số trang nguồn giới thiệu (2.376 loài thực vật, 2.824 loài động vật) và có bảng đối chiếu tài liệu Word (2.353 / 2.061). Không mô tả như thống kê riêng khu bảo tồn hoặc kết quả kiểm kê mới. Không công bố giá tour, thời gian khởi hành, địa chỉ hành chính mới hay cam kết tuyến đang hoạt động.
 
 Bản cập nhật được chuẩn bị để đẩy lên nhánh main theo yêu cầu đưa lên web. Netlify có thể tự deploy nếu dự án đã kết nối nhánh này; kiểm tra Deploys hoặc URL công khai để xác nhận.
+
+
+## Giao diện xanh lam – kem – đồng
+
+Bản tối ưu theo yêu cầu: tông xanh lam đậm, nền kem và điểm nhấn đồng; nội dung chính 14–15px, tăng chữ hướng dẫn và nguồn; logo Khu DTSQ Đồng Nai ở đầu trang, chân trang, phần sinh quyển và favicon. Nhãn cạnh logo nêu khu bảo tồn là thành phần vùng lõi, không đồng nhất hai đơn vị. Khẩu hiệu được biên tập cụ thể hơn về rừng Mã Đà, hồ Trị An, lịch sử Chiến khu Đ và tham quan có ý thức. Phương châm bảo tồn trích từ nguồn được giữ nguyên.
+
+Tài nguyên logo: public/brand/dong-nai-biosphere.png, lấy nguyên từ ảnh nhúng trong https://dongnaibr.vn/background/logoDongnai.svg, trùng mẫu người dùng cung cấp. Không đổi màu hoặc vẽ lại logo; logo vẫn giữ màu xanh nguyên bản trong giao diện mới.
+
+Kiểm tra: logo và ảnh tải được; font tiếng Việt cục bộ; 8 kích thước màn hình 320/360/390/768/820/900/1024/1440px; menu, gallery, lightbox, tab, checklist, nguồn tham khảo và chuyển động. Gói tải Cloudflare cục bộ: /workspace/artifacts/dong-nai-cloudflare.zip. Chưa push hoặc deploy bản thiết kế này.
+
+## Xuất bản bằng Render Static Site
+
+Cấu hình có sẵn tại render.yaml. Trong Render chọn New → Static Site, kết nối kho ngokhoi326-prog/dulich và chọn nhánh render-site chứa giao diện mới.
+
+- Build command: npm ci && npm run build
+- Publish directory: dist
+- Node.js: 24
+- Rewrite: /* → /index.html
+
+Đây là website tĩnh, không cần Start Command, Web Service hoặc máy chủ Node chạy liên tục. Có thể dùng New → Blueprint để Render đọc render.yaml từ nhánh render-site. Việc đẩy mã chỉ chuẩn bị nguồn; cần kiểm tra trạng thái Live trên Render và URL thực tế trước khi xác nhận website đã công khai.
