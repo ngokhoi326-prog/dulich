@@ -97,5 +97,14 @@
     "locationConfirmed": true,
     "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
     "confirmation": "Người dùng xác nhận địa điểm; chưa xác định tên công trình."
+  },
+  {
+    "name": "heritage",
+    "sourceFile": "anh2.docx",
+    "embeddedImage": "anh2-image4.jpeg",
+    "alt": "Không gian tưởng niệm trong khu bảo tồn",
+    "locationConfirmed": true,
+    "location": "Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai",
+    "confirmation": "Người dùng xác nhận bộ ảnh thuộc khu bảo tồn; chưa xác định tên di tích cụ thể."
   }
 ]

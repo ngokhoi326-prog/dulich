@@ -18,7 +18,7 @@ Vite development ở cổng 5175. Build tạo dist. Netlify đọc netlify.toml:
 
 - Chủ đề duy nhất: Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai. Không còn danh mục địa điểm toàn tỉnh, lịch trình Cát Tiên, Bửu Long, Giang Điền.
 - Tài liệu ghi 100.571 ha cho phần khu bảo tồn trong vùng lõi.
-- 756.000 ha, năm công nhận 2011, 2.353 loài thực vật, 2.061 loài động vật, 55 loài thực vật trong Sách đỏ Việt Nam và ba vùng chức năng đều được trình bày đúng phạm vi toàn Khu dự trữ sinh quyển Đồng Nai; không gán làm số liệu riêng của khu bảo tồn.
+- 756.000 ha, năm công nhận 2011 và ba vùng chức năng thuộc toàn Khu dự trữ sinh quyển Đồng Nai. Phần đa dạng sinh học dùng số liệu dongnaibr.vn có bảng đối chiếu Word; không gán làm số liệu riêng khu bảo tồn.
 - Chức năng bảo tồn, phát triển, hỗ trợ và các nội dung văn hóa, giáo dục được biên tập từ tài liệu. Không bổ sung tên di tích, giờ hoạt động, giá vé hay thông tin liên hệ chưa xác nhận.
 - Website giới thiệu độc lập, chưa có đặt vé, tour hoặc thanh toán.
 
@@ -28,7 +28,7 @@ Menu di động; tab ba trụ cột và phân vùng; thư viện 10 ảnh lọc 
 
 ## Tài nguyên
 
-11 ảnh chọn lọc: public/images/photos. Nguồn và xác nhận địa điểm: public/images/photos/sources.json. Bản trích ảnh gốc giữ ngoài repo ở /workspace/photo-review. SVG minh họa cũ giữ lại để tránh xóa tài nguyên không cần thiết, giao diện mới không sử dụng.
+12 ảnh chọn lọc: public/images/photos. Nguồn và xác nhận địa điểm: public/images/photos/sources.json. Bản trích ảnh gốc giữ ngoài repo ở /workspace/photo-review. SVG minh họa cũ giữ lại để tránh xóa tài nguyên không cần thiết, giao diện mới không sử dụng.
 
 FadeContent chuyển từ DavidHDev/react-bits; import React được điều chỉnh cho Vite, bỏ directive Next.js. Giấy phép MIT + Commons Clause giữ tại src/components/REACT-BITS-LICENSE.md. Không dùng mã GPL từ antigravity-animation. Font Be Vietnam Pro và Lora được tải cục bộ từ public/fonts, có glyph tiếng Việt đầy đủ; giấy phép OFL được giữ cùng font. Website không gửi yêu cầu Google Fonts.
 
@@ -38,3 +38,12 @@ Build production và Chromium desktop/mobile: phạm vi nội dung, bộ lọc �
 
 
 Cập nhật hình ảnh: bảng màu xanh ngọc, xanh lá sáng và vàng ấm; cỡ chữ lớn hơn, font tiếng Việt tự lưu trữ. Đã kiểm tra font tải từ cùng website và không có yêu cầu font bên ngoài; kiểm tra glyph tiếng Việt trên cả 5 tệp font, màn hình 320/390/768/1440px, bộ đếm và tương tác.
+
+
+## Bổ sung từ dongnaibr.vn — 14/11/2026
+
+Bổ sung cảnh quan Mã Đà – Trị An – Chiến khu Đ, ba địa danh văn hóa – lịch sử, hai chương trình thuộc khu bảo tồn, định hướng gắn bảo tồn với cộng đồng, email trung tâm và số điện thoại văn phòng khu DTSQ. Nguồn được đặt tại từng mục và chân trang. Chi tiết đối chiếu, khác biệt thống kê và giới hạn thông tin: docs/SOURCES-DONGNAIBR.md. Dữ liệu biên tập tập trung tại src/referenceContent.js.
+
+Phần thống kê toàn khu DTSQ hiện dùng số trang nguồn giới thiệu (2.376 loài thực vật, 2.824 loài động vật) và có bảng đối chiếu tài liệu Word (2.353 / 2.061). Không mô tả như thống kê riêng khu bảo tồn hoặc kết quả kiểm kê mới. Không công bố giá tour, thời gian khởi hành, địa chỉ hành chính mới hay cam kết tuyến đang hoạt động.
+
+Bản cập nhật được chuẩn bị để đẩy lên nhánh main theo yêu cầu đưa lên web. Netlify có thể tự deploy nếu dự án đã kết nối nhánh này; kiểm tra Deploys hoặc URL công khai để xác nhận.
