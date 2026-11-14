@@ -1,12 +1,12 @@
 import React,{useEffect,useRef,useState} from 'react';
 import {createRoot} from 'react-dom/client';
 import {ArrowUpRight,ArrowDown,ArrowLeft,ArrowRight,Leaf,Menu,X,Plus,Minus,Check,Download,BookOpen,TreePine,Bird,Users,ShieldCheck,Expand,MapPin} from 'lucide-react';
-import FadeContent from './components/FadeContent';
+import AnimatedContent from './components/AnimatedContent';
 import {asset,photos,pillars,zones,checklist} from './content';
 import VisualEffects,{CountUp} from './components/VisualEffects';
 import {officialSources,sourceReviewDate,reserveLandscapes,heritageSites,reserveExperiences,conservationActions,sourceStatistics} from './referenceContent';
 import './style.css';
-function Reveal({children,className=''}){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return <div className={className}>{children}</div>;return <FadeContent className={className} duration={650} initialOpacity={0.2} blur={false}>{children}</FadeContent>}
+function Reveal({children,className=''}){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return <div className={className}>{children}</div>;return <AnimatedContent className={className} distance={36} duration={0.75} ease="power3.out" initialOpacity={0.12} threshold={0.08} once>{children}</AnimatedContent>}
 function Brand(){return <a href="#trang-chu" className="brand" aria-label="Khu Bảo tồn Thiên nhiên – Văn hóa Đồng Nai — về đầu trang"><img className="brand-logo" src={import.meta.env.BASE_URL+'brand/dong-nai-biosphere.png'} width="175" height="166" alt="Logo Khu dự trữ sinh quyển Đồng Nai"/><span className="brand-label">KHU BẢO TỒN<small>THIÊN NHIÊN – VĂN HÓA ĐỒNG NAI</small><span className="brand-context">Vùng lõi Khu DTSQ Đồng Nai</span></span></a>}
 function Tag({children,light=false}){return <div className={'eyebrow '+(light?'light':'')}><span/>{children}</div>}
 function App(){

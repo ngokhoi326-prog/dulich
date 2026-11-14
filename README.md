@@ -95,3 +95,14 @@ Bổ sung 24 ảnh chọn lọc từ bộ ảnh Word gốc và đưa 2 ảnh vă
 Ban đầu hiển thị 12 ảnh; nút xem thêm mở từng nhóm 12, cuối cùng có thể thu gọn. Bộ lọc luôn áp dụng trên toàn bộ 36 ảnh. Thumbnail 680px cho ảnh mới và ảnh phóng lớn tối đa 1600px, WebP, giữ tỉ lệ ảnh gốc. Thư viện dùng lazy loading và decoding async. Ảnh đầy đủ chỉ được yêu cầu khi mở. Tổng các bản ảnh tối ưu khoảng 9,9 MB, không tải toàn bộ cùng lúc.
 
 Dữ liệu ảnh mới tại src/additionalPhotos.js; nguồn gốc từng ảnh được giữ trong public/images/photos/sources.json.
+
+
+## React Bits AnimatedContent — JS-CSS
+
+Đã thêm src/components/AnimatedContent.jsx từ registry chính thức có trong checkout DavidHDev/react-bits/public/r/AnimatedContent-JS-CSS.json. Module dùng GSAP, giữ nội dung registry và giấy phép tại src/components/REACT-BITS-LICENSE.md; chỉ thay directive use client bằng ghi chú nguồn vì đây là ứng dụng Vite.
+
+Lệnh yêu cầu `npx shadcn@latest add @react-bits/AnimatedContent-JS-CSS --yes` đã thử nhưng proxy chặn reactbits.dev. Thử cài registry JSON cục bộ đã cài dependency, sau đó CLI bị chặn ở ui.shadcn.com/r/colors/neutral.json. Vì vậy component được thêm trực tiếp từ nội dung registry đã có, không mô tả CLI đã thành công hoàn toàn. components.json và jsconfig.json đã chuẩn bị cho các lần dùng shadcn tiếp theo; cần truy cập được hai miền trên khi dùng registry trực tuyến.
+
+Reveal hiện dùng AnimatedContent: distance 36px, duration 0.75s, initialOpacity 0.12, threshold 0.08, once. Hỗ trợ prefers-reduced-motion. FadeContent cũ vẫn được giữ để tái sử dụng nhưng không dùng trong Reveal. Vite cấu hình JSX automatic và alias @ trỏ src, giúp component JSX của React Bits không cần import biến React thủ công. GSAP được CLI cập nhật yêu cầu phiên bản lên ^3.15.1; lockfile giữ đồng bộ.
+
+Đã kiểm tra production với hiệu ứng thực, nội dung mở rộng, menu di động, thư viện xem thêm và chế độ giảm chuyển động; không lỗi JavaScript.
